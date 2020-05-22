@@ -19,10 +19,7 @@ public class LoginController {
 	
 	@GetMapping ( value = { "/login", "/" } )
 	public ModelAndView login() {
-//		Pode ser feito em uma única linha
-//		ModelAndView mv = new ModelAndView("login");
-//		mv.addObject("usuario", new Usuario());
-//		return mv;
+
 		return new ModelAndView("login").addObject(new Usuario());
 	}
 	
