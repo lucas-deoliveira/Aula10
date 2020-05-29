@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.usjt</groupId>
-	<artifactId>weather-forecast-springboot</artifactId>
+	<artifactId>Aula10</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>weather-forecast-springboot</name>
 	<description>Demo project for Spring Boot</description>
